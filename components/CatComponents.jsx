@@ -1,13 +1,12 @@
 import React from 'react';
 
 const CatComponents = ({ result, currentPage, renderPaginationLinks }) => {
-  console.log(result);
   return (
-    <div className="container max-w-6xl mx-auto px-2 py-36 relative z-10">
+    <div className="container max-w-6xl mx-auto px-2 pb-36 relative z-10 pt-4">
       <div className="row">
         <div className="col-12 p-2 text-justify">
-          <p className="text-2xl text-black pb-4 font-poppins">Cat Facts</p>
-          <p className='font-poppins'>Collections of some of the cat facts</p>
+          <p className="text-2xl text-black pb-4">Cat Facts</p>
+          <p>Collections of some of the cat facts</p>
           {result.map(function (facts) {
             return (
               <div key={facts.id}>
