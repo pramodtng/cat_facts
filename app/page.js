@@ -60,14 +60,13 @@ const Home = () => {
         );
       }
     } else {
-      // Display limited pages around the current page with ellipsis
       const startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
       const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
 
       if (startPage > 1) {
         links.push(<span key={1}>1</span>);
         if (startPage > 2) {
-          links.push(<span key="ellipsis-start">...</span>);
+          links.push(<span key="ellipsis-start">.....</span>);
         }
       }
 
