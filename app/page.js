@@ -77,7 +77,7 @@ const Home = () => {
             href="#"
             key={i}
             onClick={(event) => handlePageChange(i, event)}
-            className={`px-4 py-2 rounded ${i === currentPage ? 'bg-gray-200 text-gray-900 font-medium' : 'hover:bg-gray-100'}`}
+            className={`px-4 py-2 rounded ${i === currentPage ? 'bg-gray-500 text-white font-medium' : 'hover:bg-gray-100'}`}
           >
             {i}
           </a>

@@ -12,7 +12,7 @@ const CatComponents = ({ result, currentPage, renderPaginationLinks }) => {
               <div key={facts.id}>
                 <div className="hs-accordion-group py-2">
                   <div
-                    className="hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6  active"
+                    className="shadow-md hs-accordion hs-accordion-active:bg-gray-100 rounded-xl p-6  active"
                     id={`hs-basic-with-title-and-arrow-stretched-heading-${facts.id}`}
                   >
                     <div
